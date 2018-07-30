@@ -1,0 +1,9 @@
+Package: ca.skrundz.fileexplorer
+Name: FileExplorer
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A File Manager
+Maintainer: David Skrundz
+Author: David Skrundz
+Section: Utilities
+Depends: ${LIBSWIFT}, firmware (>= 11.0)

@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Rebuilding UICache"
+su mobile -c uicache
+echo "Done"

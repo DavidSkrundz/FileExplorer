@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		".theos": true,
+		"obj": true,
+		"packages": true,
+		"__handlers__": true,
+	},
+	"git.ignoreLimitWarning": true
+}
