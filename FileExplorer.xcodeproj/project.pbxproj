@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63AE20FD210EB38F006CFC72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE20FA210EB38F006CFC72 /* ViewController.swift */; };
+		63AE20FD210EB38F006CFC72 /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE20FA210EB38F006CFC72 /* FolderViewController.swift */; };
 		63AE20FE210EB38F006CFC72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE20FB210EB38F006CFC72 /* AppDelegate.swift */; };
 		63AE20FF210EB38F006CFC72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE20FC210EB38F006CFC72 /* main.swift */; };
 		63AE216B210EC9B1006CFC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AE2164210EC9B1006CFC72 /* Main.storyboard */; };
 		63AE216D210EE59C006CFC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AE216C210EE59C006CFC72 /* Assets.xcassets */; };
 		63AE216F210EF026006CFC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AE216E210EF026006CFC72 /* LaunchScreen.storyboard */; };
+		63AE2175210F925D006CFC72 /* FS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE2174210F925D006CFC72 /* FS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63AE20E4210EB32E006CFC72 /* FileExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63AE20FA210EB38F006CFC72 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63AE20FA210EB38F006CFC72 /* FolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
 		63AE20FB210EB38F006CFC72 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AE20FC210EB38F006CFC72 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		63AE2160210EC9B1006CFC72 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63AE2164210EC9B1006CFC72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63AE216C210EE59C006CFC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AE216E210EF026006CFC72 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63AE2174210F925D006CFC72 /* FS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		63AE20F9210EB38F006CFC72 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				63AE20FA210EB38F006CFC72 /* ViewController.swift */,
-				63AE20FB210EB38F006CFC72 /* AppDelegate.swift */,
 				63AE20FC210EB38F006CFC72 /* main.swift */,
+				63AE20FB210EB38F006CFC72 /* AppDelegate.swift */,
+				63AE20FA210EB38F006CFC72 /* FolderViewController.swift */,
+				63AE2174210F925D006CFC72 /* FS.swift */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -154,8 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AE2175210F925D006CFC72 /* FS.swift in Sources */,
 				63AE20FE210EB38F006CFC72 /* AppDelegate.swift in Sources */,
-				63AE20FD210EB38F006CFC72 /* ViewController.swift in Sources */,
+				63AE20FD210EB38F006CFC72 /* FolderViewController.swift in Sources */,
 				63AE20FF210EB38F006CFC72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
